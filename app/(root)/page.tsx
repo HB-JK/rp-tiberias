@@ -8,13 +8,6 @@ export default function Home() {
 
     const list_member = [
         {
-            id: 2,
-            name: "clay aiken",
-            role: "member",
-            img: "/assets/member/kevin.webp",
-            instagram_name: "clay_aiken_",
-        },
-        {
             id: 1,
             name: "kevin immanuel",
             role: "ketua",
@@ -22,10 +15,17 @@ export default function Home() {
             instagram_name: "kevin_immanuel",
         },
         {
+            id: 2,
+            name: "clay aiken",
+            role: "member",
+            img: "/assets/member/clay.jpeg",
+            instagram_name: "clay_aiken_",
+        },
+        {
             id: 3,
             name: "ivana angelia",
             role: "member",
-            img: "/assets/member/kevin.webp",
+            img: "/assets/member/ivana.jpeg",
             instagram_name: "ivanaangelia",
         },
     ];
@@ -96,9 +96,7 @@ export default function Home() {
 
                     <div className="flex flex-wrap md:flex-nowrap justify-between">
                         {list_member.map((value) => (
-                            <div
-                                className="md:w-1/3 sm:w-1/2 w-full p-3 flex flex-col items-center gap-2"
-                            >
+                            <div className="md:w-1/3 sm:w-1/2 w-full p-3 flex flex-col items-center gap-2">
                                 <div className="member-img sm:w-5/6 w-2/3">
                                     <img
                                         src={value.img}

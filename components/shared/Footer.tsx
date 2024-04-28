@@ -42,7 +42,7 @@ function Footer() {
             </div>
             
             <div className="text-center w-full p-3">
-                <p className="text-gray-300 sm:text-base text-sm capitalize">copyright ©2024 B-Know</p>
+                <p className="text-gray-300 sm:text-base text-sm capitalize">copyright ©2024 rayon pemuda tiberias</p>
             </div>
         </footer>
     );

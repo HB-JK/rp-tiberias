@@ -9,10 +9,10 @@ function Topbar() {
     
     const list_of_navigation = navigation_list.map(
         (value) => {
-            return <a href={value.id} key={value.id} className="w-1/5 py-2 group border-in text-center text-white lg:text-lg text-sm">
+            return <a href={value.id} key={value.id} className="w-1/5 py-2 group border-in text-center text-white lg:text-lg text-sm hover:text-primary transition-all">
                 <span>{value.name}</span>
                 
-                <div className="group-hover:w-full w-0 transition-all h-[2px] bg-white"></div>
+                <div className="group-hover:w-full w-0 transition-all h-[2px] bg-primary"></div>
             </a>;
         }
     );
