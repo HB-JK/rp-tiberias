@@ -1,6 +1,6 @@
 function Topbar() {
     const navigation_list = [
-        {id: "#home", name: "Home"},
+        {id: "#home", name: "Homex"},
         {id: "#visi_misi", name: "Visi Misi"},
         {id: "#kegiatan", name: "Kegiatan"},
         {id: "#anggota", name: "Anggota"},
