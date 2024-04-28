@@ -1,3 +1,9 @@
+"use client";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import 'swiper/css';
+
 function Kegiatan() {
     const list_kegiatan = [
         {
@@ -39,9 +45,9 @@ function Kegiatan() {
                     {list_kegiatan.map((value) => (
                         <div
                             key={value.id}
-                            className="lg:w-[28%] sm:w-[47%] w-full"
+                            className="lg:w-[31%] sm:w-[47%] w-full"
                         >
-                            <div className="card">
+                            <div className="card hover:bg-primary active:bg-primary transition-all group">
                                 <div className="aspect-[4/2] w-full">
                                     <img
                                         src={value.img}
@@ -50,11 +56,11 @@ function Kegiatan() {
                                     />
                                 </div>
 
-                                <div className="p-3 space-y-2">
+                                <div className="p-3 space-y-2 group-hover:text-white">
                                     <h4 className="capitalize text-center font-semibold">
                                         {value.name}
                                     </h4>
-                                    <p className="text-xs text-justify">
+                                    <p className="lg:text-sm text-xs text-justify">
                                         {value.description}
                                     </p>
                                 </div>
@@ -62,6 +68,19 @@ function Kegiatan() {
                         </div>
                     ))}
                 </div>
+
+                {/* <Swiper
+                    spaceBetween={50}
+                    slidesPerView={3}
+                    onSlideChange={() => console.log("slide change")}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide>Slide 1</SwiperSlide>
+                    <SwiperSlide>Slide 2</SwiperSlide>
+                    <SwiperSlide>Slide 3</SwiperSlide>
+                    <SwiperSlide>Slide 4</SwiperSlide>
+                    ...
+                </Swiper> */}
             </div>
         </section>
     );

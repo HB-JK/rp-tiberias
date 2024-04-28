@@ -80,6 +80,6 @@ body {
   }
   
   .card {
-    @apply rounded-md shadow;
+    @apply rounded-md shadow-2xl;
   }
 }
