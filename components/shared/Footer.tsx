@@ -31,18 +31,37 @@ function Footer() {
                         saudara dan saling mendahului dalam memberi hormat.”
                     </p>
                 </div>
-                
-                <div className="lg:w-[35%] md:w-1/2 w-full py-2">
+
+                <div className="lg:w-[35%] md:w-1/2 w-full py-2 space-y-6">
                     <div className="flex gap-4">
-                        <a href="#anggota" className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs">Anggota</a>
-                        <a href="#visi_misi" className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs">Tentang kami</a>
-                        <a className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs">Kontak Kami</a>
+                        <a
+                            href="#anggota"
+                            className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs"
+                        >
+                            Anggota
+                        </a>
+                        <a
+                            href="#visi_misi"
+                            className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs"
+                        >
+                            Tentang kami
+                        </a>
+                        <a className="text-gray-200 underline hover:text-primary transition-all sm:text-base text-xs">
+                            Kontak Kami
+                        </a>
                     </div>
+
+                    <p className="text-gray-200 sm:text-base text-sm text-justify font-normal">
+                        Jl. Gajah Mada No.250, Benua Melayu Darat, Kec.
+                        Pontianak Sel., Kota Pontianak, Kalimantan Barat 78122
+                    </p>
                 </div>
             </div>
-            
+
             <div className="text-center w-full p-3">
-                <p className="text-gray-300 sm:text-base text-sm capitalize">copyright ©2024 rayon pemuda tiberias</p>
+                <p className="text-gray-300 sm:text-base text-sm capitalize">
+                    copyright ©2024 rayon pemuda tiberias
+                </p>
             </div>
         </footer>
     );
