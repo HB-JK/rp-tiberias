@@ -8,24 +8,24 @@ function Kegiatan() {
     const list_kegiatan = [
         {
             id: 1,
-            img: "/assets/kegiatan-1.jpg",
+            img: "/assets/baca-alkitab.jpg",
             name: "membaca alkitab",
             description:
                 "Setiap hari Jumat malam kami akan melakukan kegiatan mebaca Alkitab bersama di gereja. Kami ingin bersama-sama tumbuh dalam iman dan mengenal Yesus sang Juruslamat.",
         },
         {
             id: 2,
-            img: "/assets/kegiatan-2.jpg",
-            name: "doa malam",
+            img: "/assets/berdoa-bersama.jpg",
+            name: "doa bersama",
             description:
-                "Setiap hari Jumat malam kami akan melakukan kegiatan mebaca Alkitab bersama di gereja. Kami ingin bersama-sama tumbuh dalam iman dan mengenal Yesus sang Juruslamat.",
+                "Kegiatan ini berjalan setiap hari Rabu, kami akan berkumpul untuk berdoa bersama. Sharing banyak hal mengenai pertumbuhan iman. Setiap anggota dapot meminta untuk didoakan.",
         },
         {
             id: 3,
             img: "/assets/kegiatan-3.jpg",
-            name: "diakonia",
+            name: "natal bersama",
             description:
-                "Setiap hari Jumat malam kami akan melakukan kegiatan mebaca Alkitab bersama di gereja. Kami ingin bersama-sama tumbuh dalam iman dan mengenal Yesus sang Juruslamat.",
+                "Ibadah ini dilakukan dilingkup anggota RP Tiberias menjelang hari Natal. Kami akan melakukan sharing dan memaknai natal dengan hikmat bersama-sama.",
         },
     ];
 
@@ -60,7 +60,7 @@ function Kegiatan() {
                                     <h4 className="capitalize text-center font-semibold">
                                         {value.name}
                                     </h4>
-                                    <p className="lg:text-sm text-xs text-justify">
+                                    <p className="desc">
                                         {value.description}
                                     </p>
                                 </div>
