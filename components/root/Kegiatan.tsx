@@ -22,7 +22,7 @@ function Kegiatan() {
         },
         {
             id: 3,
-            img: "/assets/kegiatan-3.jpg",
+            img: "/assets/natal-bersama.jpg",
             name: "natal bersama",
             description:
                 "Ibadah ini dilakukan dilingkup anggota RP Tiberias menjelang hari Natal. Kami akan melakukan sharing dan memaknai natal dengan hikmat bersama-sama.",
@@ -48,11 +48,11 @@ function Kegiatan() {
                             className="lg:w-[31%] sm:w-[47%] w-full"
                         >
                             <div className="card hover:bg-primary active:bg-primary transition-all group">
-                                <div className="aspect-[4/2] w-full">
+                                <div className="aspect-[4/2] w-full rounded-t-md overflow-hidden">
                                     <img
                                         src={value.img}
                                         alt={value.name}
-                                        className="w-full"
+                                        className="w-full object-cover"
                                     />
                                 </div>
 
@@ -60,7 +60,7 @@ function Kegiatan() {
                                     <h4 className="capitalize text-center font-semibold">
                                         {value.name}
                                     </h4>
-                                    <p className="desc">
+                                    <p className="lg:text-sm text-xs text-justify text-ellipsis line-clamp-3">
                                         {value.description}
                                     </p>
                                 </div>
